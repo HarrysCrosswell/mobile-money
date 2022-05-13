@@ -1,0 +1,32 @@
+{
+    "name": "crosswell/mobile-money",
+    "description": "Mobile money libraries made available for PHP",
+    "type": "library",
+    "require": {
+        "ext-curl": "*",
+        "php": ">=7.3"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Crosswell\\MobileMoney\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Harris TIWA",
+            "email": "tiwasonofo@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "RandomPassword\\PasswordServiceProvider"
+          ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "minimum-stability": "dev"
+}
